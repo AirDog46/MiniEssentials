@@ -1,0 +1,31 @@
+name: MiniEssentials
+author: AirDog46
+main: xyz.airdog46.miniessentials.Main
+api-version: 1.16
+version: 1.0
+commands:
+  spawnmob:
+    description: Summon a mob to a player's location.
+    usage: /spawnmob <entity> [amount] [atPlayer]
+    aliases:
+      - mob
+      - smob
+      - addmob
+  killmob:
+    description: Removes all mobs in a world or multiple worlds.
+    usage: /killmob <world1> [world2] [world3] ...
+    aliases:
+      - killall
+      - killmobs
+      - removemobs
+      - rmobs
+      - kmobs
+  heal:
+    description: Heal yourself, a player or multiple players.
+    usage: /heal [player1] [player2] [player3] ...
+  feed:
+    description: Feed yourself, a player or multiple players.
+    usage: /feed [player1] [player2] [player3] ...
+  lockupserver:
+    description: Locks up the server.
+    usage: /lockupserver
