@@ -2,7 +2,7 @@ name: MiniEssentials
 author: AirDog46
 main: xyz.airdog46.miniessentials.Main
 api-version: 1.16
-version: 1.0
+version: 1.0.1
 commands:
   spawnmob:
     description: Summon a mob to a player's location.
