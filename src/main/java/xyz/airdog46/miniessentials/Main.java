@@ -19,7 +19,7 @@ public class Main extends JavaPlugin {
         Bukkit.getPluginCommand("heal").setExecutor(new HealCommand());
         Bukkit.getPluginCommand("feed").setExecutor(new FeedCommand());
         Bukkit.getPluginCommand("lockupserver").setExecutor(new LockupServer());
-        Bukkit.getPluginCommand("zombiemode").setExecutor(new SetZombieEntityCommand());
+        Bukkit.getPluginCommand("zombiemobs").setExecutor(new SetZombieEntityCommand());
     }
 
     void registerTabCompleters() {
