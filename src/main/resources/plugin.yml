@@ -29,3 +29,6 @@ commands:
   lockupserver:
     description: Locks up the server.
     usage: /lockupserver
+  zombiemob:
+    description: Makes all mobs spawn 2 copies of them on death
+    usage: /zombiemob [boolean]
